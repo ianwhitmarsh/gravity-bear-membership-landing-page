@@ -203,139 +203,6 @@ h3 {
   font-weight: 850;
 }
 
-.summer-promo {
-  position: relative;
-  overflow: hidden;
-  padding: 42px 40px;
-  color: var(--white);
-  background:
-    repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0 2px, transparent 2px 18px),
-    linear-gradient(90deg, var(--purple-deep), var(--purple) 54%, var(--teal));
-  border-top: 1px solid rgba(255, 255, 255, 0.16);
-  border-bottom: 8px solid var(--sun);
-}
-
-.summer-promo::after {
-  content: "SEND IT";
-  position: absolute;
-  right: 28px;
-  bottom: -34px;
-  color: rgba(255, 255, 255, 0.1);
-  font-size: 7.2rem;
-  line-height: 0.85;
-  font-weight: 1000;
-  text-transform: uppercase;
-  pointer-events: none;
-}
-
-.summer-promo-inner {
-  position: relative;
-  z-index: 1;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: center;
-  gap: 28px;
-  width: min(1160px, 100%);
-  margin: 0 auto;
-}
-
-.summer-kicker {
-  margin: 0 0 8px;
-  color: var(--sun);
-  font-size: 0.86rem;
-  font-weight: 1000;
-  letter-spacing: 0;
-  text-transform: uppercase;
-}
-
-.summer-promo h2 {
-  max-width: 760px;
-  margin-bottom: 8px;
-  font-size: 3.25rem;
-  line-height: 0.95;
-}
-
-.summer-promo h2 span {
-  display: inline-block;
-  color: var(--sun);
-  text-shadow: 4px 4px 0 var(--ink);
-}
-
-.summer-promo p {
-  margin-bottom: 0;
-  color: rgba(255, 255, 255, 0.92);
-  font-size: 1.16rem;
-  font-weight: 850;
-}
-
-.promo-code {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  margin-top: 18px;
-  padding: 8px 10px 8px 14px;
-  border: 2px dashed rgba(255, 255, 255, 0.62);
-  border-radius: 6px;
-  color: var(--ink);
-  background: rgba(255, 200, 61, 0.96);
-  box-shadow: 7px 7px 0 rgba(23, 22, 20, 0.32);
-  transform: rotate(-1deg);
-}
-
-.promo-code span,
-.promo-code strong {
-  display: block;
-  line-height: 1;
-  text-transform: uppercase;
-}
-
-.promo-code span {
-  font-size: 0.72rem;
-  font-weight: 1000;
-}
-
-.promo-code strong {
-  padding: 7px 9px;
-  border-radius: 4px;
-  color: var(--white);
-  background: var(--ink);
-  font-size: 1.02rem;
-  font-weight: 1000;
-  letter-spacing: 0;
-}
-
-.summer-promo .button-primary {
-  color: var(--ink);
-  background: var(--sun);
-  border-color: var(--ink);
-  box-shadow: 0 8px 0 rgba(23, 22, 20, 0.28);
-}
-
-.summer-promo .button-primary:hover {
-  box-shadow: 0 6px 0 rgba(23, 22, 20, 0.28);
-}
-
-.summer-stamps {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  width: min(1160px, 100%);
-  margin: 20px auto 0;
-}
-
-.summer-stamps span {
-  padding: 7px 10px;
-  border: 1px solid rgba(255, 255, 255, 0.42);
-  border-radius: 6px;
-  color: var(--white);
-  background: rgba(23, 22, 20, 0.18);
-  font-size: 0.8rem;
-  font-weight: 950;
-  text-transform: uppercase;
-}
-
 .quick-proof {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -765,18 +632,6 @@ details p {
     font-size: 2.1rem;
   }
 
-  .summer-promo-inner {
-    grid-template-columns: 1fr;
-  }
-
-  .summer-promo h2 {
-    font-size: 2.7rem;
-  }
-
-  .summer-promo::after {
-    font-size: 5.2rem;
-  }
-
   .choice-grid,
   .path-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -847,34 +702,6 @@ details p {
 
   .hero-copy {
     font-size: 1.06rem;
-  }
-
-  .summer-promo {
-    padding: 34px 20px;
-  }
-
-  .summer-promo h2 {
-    font-size: 2.08rem;
-    line-height: 1;
-  }
-
-  .summer-promo h2 span {
-    text-shadow: 3px 3px 0 var(--ink);
-  }
-
-  .summer-promo::after {
-    right: 12px;
-    bottom: -18px;
-    font-size: 3.3rem;
-  }
-
-  .summer-promo p {
-    font-size: 1.02rem;
-  }
-
-  .promo-code {
-    flex-wrap: wrap;
-    gap: 8px;
   }
 
   .hero-actions,
@@ -973,10 +800,6 @@ details p {
 
   h2 {
     font-size: 1.58rem;
-  }
-
-  .summer-promo h2 {
-    font-size: 1.76rem;
   }
 
   .hero-points span {
