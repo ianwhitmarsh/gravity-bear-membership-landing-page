@@ -10,6 +10,6 @@ python3 -m http.server 4173 --bind 127.0.0.1
 
 Primary CTAs:
 
-- $19 first month: https://climber.hellocapitan.com/gravitybear/membership/enter-owner-info/1268/
+- $19 first month: https://climber.hellocapitan.com/gravitybear/membership/enter-owner-info/1076/
 - Monthly membership: https://climber.hellocapitan.com/gravitybear/membership/enter-owner-info/1076/
 - Full membership catalog: https://climber.hellocapitan.com/gravitybear/memberships-and-passes/
