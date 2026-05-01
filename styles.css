@@ -7,6 +7,8 @@
   --sun: #ffc83d;
   --coral: #ef5f42;
   --teal: #227c72;
+  --purple: #857cbb;
+  --purple-deep: #5e5593;
   --line: #d9d5c9;
   --shadow: 0 18px 50px rgba(23, 22, 20, 0.16);
   --hero-image: url("https://static.wixstatic.com/media/2c1e60_d45e763baaf94958bfa3cae6d216ab5b~mv2.jpg/v1/fill/w_1800,h_1200,al_c,q_85,usm_0.66_1.00_0.01/2c1e60_d45e763baaf94958bfa3cae6d216ab5b~mv2.jpg");
@@ -89,10 +91,10 @@ a {
 
 .header-cta,
 .button-primary {
-  color: var(--ink);
-  background: var(--sun);
-  border-color: #d89a00;
-  box-shadow: 0 8px 0 rgba(23, 22, 20, 0.2);
+  color: var(--white);
+  background: var(--purple);
+  border-color: var(--purple-deep);
+  box-shadow: 0 8px 0 rgba(94, 85, 147, 0.38);
 }
 
 .button-secondary {
@@ -104,7 +106,7 @@ a {
 .header-cta:hover,
 .button-primary:hover {
   transform: translateY(1px);
-  box-shadow: 0 6px 0 rgba(23, 22, 20, 0.2);
+  box-shadow: 0 6px 0 rgba(94, 85, 147, 0.38);
 }
 
 .button-secondary:hover {
@@ -264,7 +266,7 @@ h3 {
 }
 
 .choice-card:nth-child(2) {
-  border-top-color: var(--teal);
+  border-top-color: var(--purple);
 }
 
 .choice-card:nth-child(3) {
@@ -382,7 +384,7 @@ h3 {
 .offer-kicker {
   display: block;
   margin-bottom: 30px;
-  color: var(--sun);
+  color: var(--purple);
   font-size: 0.88rem;
   font-weight: 1000;
   text-transform: uppercase;
@@ -493,7 +495,7 @@ h3 {
 }
 
 .path-grid article:nth-child(2) span {
-  background: var(--teal);
+  background: var(--purple);
 }
 
 .path-grid article:nth-child(3) span {
@@ -538,7 +540,7 @@ summary::-webkit-details-marker {
 summary::after {
   content: "+";
   float: right;
-  color: var(--coral);
+  color: var(--purple);
   font-size: 1.45rem;
   line-height: 1;
 }
